@@ -25,7 +25,7 @@ const validation = createSlice({
     },
     deleteTodo: (state, action) => {
       state.todoList = state.todoList.filter(
-        (todo) => todo.id !== action.payload.id
+        (todo) => todo.id !== action.payload
       );
     },
   },
