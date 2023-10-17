@@ -1,21 +1,22 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-import Form from './Components/Form';
+import React from "react";
+import Validation from "./Components/Validation";
 
 
 function App() {
 
 
-  return ( 
-<div className="App"> 
+  return (
+  
+  <div className="min-h-screen bg-slate-700 px-4">
+  <div className="mx-auto max-w-3xl pt-10 pb-20">
+  <Validation />
 
-<h1 className="text-center mt-3"> Todo-List </h1>
 
-<Form />
+  </div> 
 
-</div>
-
-);
-} 
+  </div>
+  );
+}
 
 export default App;
