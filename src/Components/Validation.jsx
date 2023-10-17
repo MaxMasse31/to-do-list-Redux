@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addItem, setItem } from "../../features/validation";
+import { addItem, setItem } from "../features/validation"
 import ListItem from "./ListItem";
 
 export default function Validation() {
@@ -62,7 +62,7 @@ export default function Validation() {
             Ajouter
           </button>
 
-          {/* Affichage de la liste TODO  */}
+        
           <ListItem />
         </form>
       </div>
