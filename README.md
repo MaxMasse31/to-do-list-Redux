@@ -1,4 +1,4 @@
-# Watch it 
+# See the result
 https://maxmasse31.github.io/to-do-list-Redux/
 
 
